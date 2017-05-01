@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E5E81A31EB7422A0001CCC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81A21EB7422A0001CCC1 /* AppDelegate.swift */; };
+		5E5E81A51EB7422A0001CCC1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81A41EB7422A0001CCC1 /* MenuViewController.swift */; };
+		5E5E81A81EB7422A0001CCC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E81A61EB7422A0001CCC1 /* Main.storyboard */; };
+		5E5E81AA1EB7422A0001CCC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E81A91EB7422A0001CCC1 /* Assets.xcassets */; };
+		5E5E81AD1EB7422A0001CCC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E81AB1EB7422A0001CCC1 /* LaunchScreen.storyboard */; };
+		5E5E81B81EB7422A0001CCC1 /* StrokeMiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81B71EB7422A0001CCC1 /* StrokeMiniTests.swift */; };
+		5E5E81C31EB7422A0001CCC1 /* StrokeMiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81C21EB7422A0001CCC1 /* StrokeMiniUITests.swift */; };
+		5E5E81D11EB746560001CCC1 /* StrokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81D01EB746560001CCC1 /* StrokeViewController.swift */; };
+		5E5E81D61EB747F20001CCC1 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81D31EB747F20001CCC1 /* Stroke.swift */; };
+		5E5E81D71EB747F20001CCC1 /* StrokeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81D41EB747F20001CCC1 /* StrokeSettings.swift */; };
+		5E5E81D81EB747F20001CCC1 /* TouchDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E81D51EB747F20001CCC1 /* TouchDrawView.swift */; };
+		5E5E81DB1EB74B1F0001CCC1 /* strokeFirst.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E81D91EB74B1F0001CCC1 /* strokeFirst.svg */; };
+		5E5E81DC1EB74B1F0001CCC1 /* strokeSecond.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5E5E81DA1EB74B1F0001CCC1 /* strokeSecond.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E5E81B41EB7422A0001CCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5E81971EB7422A0001CCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5E819E1EB7422A0001CCC1;
+			remoteInfo = StrokeMini;
+		};
+		5E5E81BF1EB7422A0001CCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5E81971EB7422A0001CCC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E5E819E1EB7422A0001CCC1;
+			remoteInfo = StrokeMini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E5E819F1EB7422A0001CCC1 /* StrokeMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrokeMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5E81A21EB7422A0001CCC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E5E81A41EB7422A0001CCC1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5E5E81A71EB7422A0001CCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E5E81A91EB7422A0001CCC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E5E81AC1EB7422A0001CCC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E5E81AE1EB7422A0001CCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5E81B31EB7422A0001CCC1 /* StrokeMiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeMiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5E81B71EB7422A0001CCC1 /* StrokeMiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeMiniTests.swift; sourceTree = "<group>"; };
+		5E5E81B91EB7422A0001CCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5E81BE1EB7422A0001CCC1 /* StrokeMiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeMiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5E81C21EB7422A0001CCC1 /* StrokeMiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeMiniUITests.swift; sourceTree = "<group>"; };
+		5E5E81C41EB7422A0001CCC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5E81D01EB746560001CCC1 /* StrokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeViewController.swift; sourceTree = "<group>"; };
+		5E5E81D31EB747F20001CCC1 /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stroke.swift; path = TouchDraw/Stroke.swift; sourceTree = "<group>"; };
+		5E5E81D41EB747F20001CCC1 /* StrokeSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StrokeSettings.swift; path = TouchDraw/StrokeSettings.swift; sourceTree = "<group>"; };
+		5E5E81D51EB747F20001CCC1 /* TouchDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchDrawView.swift; path = TouchDraw/TouchDrawView.swift; sourceTree = "<group>"; };
+		5E5E81D91EB74B1F0001CCC1 /* strokeFirst.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strokeFirst.svg; sourceTree = "<group>"; };
+		5E5E81DA1EB74B1F0001CCC1 /* strokeSecond.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strokeSecond.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E5E819C1EB7422A0001CCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5E81B01EB7422A0001CCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5E81BB1EB7422A0001CCC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E5E81961EB7422A0001CCC1 = {
+			isa = PBXGroup;
+			children = (
+				5E5E81A11EB7422A0001CCC1 /* StrokeMini */,
+				5E5E81B61EB7422A0001CCC1 /* StrokeMiniTests */,
+				5E5E81C11EB7422A0001CCC1 /* StrokeMiniUITests */,
+				5E5E81A01EB7422A0001CCC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E5E81A01EB7422A0001CCC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E819F1EB7422A0001CCC1 /* StrokeMini.app */,
+				5E5E81B31EB7422A0001CCC1 /* StrokeMiniTests.xctest */,
+				5E5E81BE1EB7422A0001CCC1 /* StrokeMiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E5E81A11EB7422A0001CCC1 /* StrokeMini */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E81D21EB747E90001CCC1 /* TouchDraw */,
+				5E5E81A61EB7422A0001CCC1 /* Main.storyboard */,
+				5E5E81A41EB7422A0001CCC1 /* MenuViewController.swift */,
+				5E5E81D01EB746560001CCC1 /* StrokeViewController.swift */,
+				5E5E81A21EB7422A0001CCC1 /* AppDelegate.swift */,
+				5E5E81A91EB7422A0001CCC1 /* Assets.xcassets */,
+				5E5E81AB1EB7422A0001CCC1 /* LaunchScreen.storyboard */,
+				5E5E81AE1EB7422A0001CCC1 /* Info.plist */,
+				5E5E81D91EB74B1F0001CCC1 /* strokeFirst.svg */,
+				5E5E81DA1EB74B1F0001CCC1 /* strokeSecond.svg */,
+			);
+			path = StrokeMini;
+			sourceTree = "<group>";
+		};
+		5E5E81B61EB7422A0001CCC1 /* StrokeMiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E81B71EB7422A0001CCC1 /* StrokeMiniTests.swift */,
+				5E5E81B91EB7422A0001CCC1 /* Info.plist */,
+			);
+			path = StrokeMiniTests;
+			sourceTree = "<group>";
+		};
+		5E5E81C11EB7422A0001CCC1 /* StrokeMiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E81C21EB7422A0001CCC1 /* StrokeMiniUITests.swift */,
+				5E5E81C41EB7422A0001CCC1 /* Info.plist */,
+			);
+			path = StrokeMiniUITests;
+			sourceTree = "<group>";
+		};
+		5E5E81D21EB747E90001CCC1 /* TouchDraw */ = {
+			isa = PBXGroup;
+			children = (
+				5E5E81D31EB747F20001CCC1 /* Stroke.swift */,
+				5E5E81D41EB747F20001CCC1 /* StrokeSettings.swift */,
+				5E5E81D51EB747F20001CCC1 /* TouchDrawView.swift */,
+			);
+			name = TouchDraw;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E5E819E1EB7422A0001CCC1 /* StrokeMini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5E81C71EB7422A0001CCC1 /* Build configuration list for PBXNativeTarget "StrokeMini" */;
+			buildPhases = (
+				5E5E819B1EB7422A0001CCC1 /* Sources */,
+				5E5E819C1EB7422A0001CCC1 /* Frameworks */,
+				5E5E819D1EB7422A0001CCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrokeMini;
+			productName = StrokeMini;
+			productReference = 5E5E819F1EB7422A0001CCC1 /* StrokeMini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E5E81B21EB7422A0001CCC1 /* StrokeMiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5E81CA1EB7422A0001CCC1 /* Build configuration list for PBXNativeTarget "StrokeMiniTests" */;
+			buildPhases = (
+				5E5E81AF1EB7422A0001CCC1 /* Sources */,
+				5E5E81B01EB7422A0001CCC1 /* Frameworks */,
+				5E5E81B11EB7422A0001CCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5E81B51EB7422A0001CCC1 /* PBXTargetDependency */,
+			);
+			name = StrokeMiniTests;
+			productName = StrokeMiniTests;
+			productReference = 5E5E81B31EB7422A0001CCC1 /* StrokeMiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E5E81BD1EB7422A0001CCC1 /* StrokeMiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E5E81CD1EB7422A0001CCC1 /* Build configuration list for PBXNativeTarget "StrokeMiniUITests" */;
+			buildPhases = (
+				5E5E81BA1EB7422A0001CCC1 /* Sources */,
+				5E5E81BB1EB7422A0001CCC1 /* Frameworks */,
+				5E5E81BC1EB7422A0001CCC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E5E81C01EB7422A0001CCC1 /* PBXTargetDependency */,
+			);
+			name = StrokeMiniUITests;
+			productName = StrokeMiniUITests;
+			productReference = 5E5E81BE1EB7422A0001CCC1 /* StrokeMiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E5E81971EB7422A0001CCC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jason Chan";
+				TargetAttributes = {
+					5E5E819E1EB7422A0001CCC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T853A9JAKK;
+						ProvisioningStyle = Automatic;
+					};
+					5E5E81B21EB7422A0001CCC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T853A9JAKK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E5E819E1EB7422A0001CCC1;
+					};
+					5E5E81BD1EB7422A0001CCC1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = T853A9JAKK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E5E819E1EB7422A0001CCC1;
+					};
+				};
+			};
+			buildConfigurationList = 5E5E819A1EB7422A0001CCC1 /* Build configuration list for PBXProject "StrokeMini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E5E81961EB7422A0001CCC1;
+			productRefGroup = 5E5E81A01EB7422A0001CCC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E5E819E1EB7422A0001CCC1 /* StrokeMini */,
+				5E5E81B21EB7422A0001CCC1 /* StrokeMiniTests */,
+				5E5E81BD1EB7422A0001CCC1 /* StrokeMiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E5E819D1EB7422A0001CCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5E81AD1EB7422A0001CCC1 /* LaunchScreen.storyboard in Resources */,
+				5E5E81DB1EB74B1F0001CCC1 /* strokeFirst.svg in Resources */,
+				5E5E81DC1EB74B1F0001CCC1 /* strokeSecond.svg in Resources */,
+				5E5E81AA1EB7422A0001CCC1 /* Assets.xcassets in Resources */,
+				5E5E81A81EB7422A0001CCC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5E81B11EB7422A0001CCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5E81BC1EB7422A0001CCC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E5E819B1EB7422A0001CCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5E81D11EB746560001CCC1 /* StrokeViewController.swift in Sources */,
+				5E5E81D71EB747F20001CCC1 /* StrokeSettings.swift in Sources */,
+				5E5E81A51EB7422A0001CCC1 /* MenuViewController.swift in Sources */,
+				5E5E81A31EB7422A0001CCC1 /* AppDelegate.swift in Sources */,
+				5E5E81D81EB747F20001CCC1 /* TouchDrawView.swift in Sources */,
+				5E5E81D61EB747F20001CCC1 /* Stroke.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5E81AF1EB7422A0001CCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5E81B81EB7422A0001CCC1 /* StrokeMiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5E81BA1EB7422A0001CCC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5E81C31EB7422A0001CCC1 /* StrokeMiniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E5E81B51EB7422A0001CCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5E819E1EB7422A0001CCC1 /* StrokeMini */;
+			targetProxy = 5E5E81B41EB7422A0001CCC1 /* PBXContainerItemProxy */;
+		};
+		5E5E81C01EB7422A0001CCC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E5E819E1EB7422A0001CCC1 /* StrokeMini */;
+			targetProxy = 5E5E81BF1EB7422A0001CCC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E5E81A61EB7422A0001CCC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5E81A71EB7422A0001CCC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E5E81AB1EB7422A0001CCC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E5E81AC1EB7422A0001CCC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E5E81C51EB7422A0001CCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E5E81C61EB7422A0001CCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5E81C81EB7422A0001CCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T853A9JAKK;
+				INFOPLIST_FILE = StrokeMini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jckk.StrokeMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E5E81C91EB7422A0001CCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T853A9JAKK;
+				INFOPLIST_FILE = StrokeMini/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jckk.StrokeMini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E5E81CB1EB7422A0001CCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T853A9JAKK;
+				INFOPLIST_FILE = StrokeMiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jckk.StrokeMiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrokeMini.app/StrokeMini";
+			};
+			name = Debug;
+		};
+		5E5E81CC1EB7422A0001CCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T853A9JAKK;
+				INFOPLIST_FILE = StrokeMiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jckk.StrokeMiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrokeMini.app/StrokeMini";
+			};
+			name = Release;
+		};
+		5E5E81CE1EB7422A0001CCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T853A9JAKK;
+				INFOPLIST_FILE = StrokeMiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jckk.StrokeMiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StrokeMini;
+			};
+			name = Debug;
+		};
+		5E5E81CF1EB7422A0001CCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T853A9JAKK;
+				INFOPLIST_FILE = StrokeMiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jckk.StrokeMiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StrokeMini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E5E819A1EB7422A0001CCC1 /* Build configuration list for PBXProject "StrokeMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5E81C51EB7422A0001CCC1 /* Debug */,
+				5E5E81C61EB7422A0001CCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E5E81C71EB7422A0001CCC1 /* Build configuration list for PBXNativeTarget "StrokeMini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5E81C81EB7422A0001CCC1 /* Debug */,
+				5E5E81C91EB7422A0001CCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E5E81CA1EB7422A0001CCC1 /* Build configuration list for PBXNativeTarget "StrokeMiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5E81CB1EB7422A0001CCC1 /* Debug */,
+				5E5E81CC1EB7422A0001CCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E5E81CD1EB7422A0001CCC1 /* Build configuration list for PBXNativeTarget "StrokeMiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5E81CE1EB7422A0001CCC1 /* Debug */,
+				5E5E81CF1EB7422A0001CCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E5E81971EB7422A0001CCC1 /* Project object */;
+}
