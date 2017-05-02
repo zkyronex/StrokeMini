@@ -18,11 +18,11 @@ extension StrokeViewController {
 private let svgs = ["strokeFirst", "strokeSecond"]
 
 class StrokeViewController: UIViewController {
+    
+    let repTarget: Int = 5
 
     var style: Style = .repeating
-    
     var index: Int = 0
-    
     var reps: Int = 0 { didSet {
         updateReps()
         }
@@ -62,14 +62,14 @@ class StrokeViewController: UIViewController {
     // MARK: - Actions
     
     func updateReps() {
-        repsLabel.text = "\(reps)/10 Reps"
+        repsLabel.text = "\(reps)/\(repTarget) Reps"
     }
     
     @IBAction func nextTapped(_ sender: Any) {
         if style == .repeating {
             reps += 1
             
-            if reps == 10 {
+            if reps == repTarget {
                 if index == 0 {
                     index = 1
                     reps = 0
@@ -86,7 +86,7 @@ class StrokeViewController: UIViewController {
                 index = 1
             }
             
-            if reps == 10 {
+            if reps == repTarget {
                 completePratise()
             }
         }
